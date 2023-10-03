@@ -1,19 +1,19 @@
 //Exercise #10 Debugging (Conditional Logic + Function + If Else)
 
 //Start coding here
+let taxPercentage
+let taxAmount 
 function calculateTax(income) {
-    const taxPercentage;
-    const taxAmount;
   
     if (income > 50000) {
       taxPercentage = 0.3;
       taxAmount = income * taxPercentage;
-      return taxAmoun
+      return taxAmount
     }
     
-    taxPercentage = 0.2;
+    else{taxPercentage = 0.2;
     taxAmount = income * taxPercentage;
-    taxAmount
+    return taxAmount}
   }
   
   const result1 = calculateTax(60000);

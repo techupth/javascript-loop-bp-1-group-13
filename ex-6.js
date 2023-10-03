@@ -85,4 +85,13 @@ let orders = [
 
 let birdiePurchasedAmount;
 
-// Start coding here
+for (let letter in orders ){
+console.log(letter)
+let customer = orders[letter].customerName
+console.log(customer)
+if(customer === "Birdie Shepland"){
+  orders.productPrice * orders.productQuantity
+  birdiePurchasedAmount = orders[letter].productPrice * orders[letter].productQuantity
+}
+}
+console.log(birdiePurchasedAmount)
